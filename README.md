@@ -152,13 +152,12 @@ SELECT *
 
 ### 6.	Jelaskan kelasahan gambar dan berikan solusi terbaik pada case ini.
 
-![](\img\soal6.png)
+![](img\soal6.png)
 
 ddPlant (nvarchar(max), null) artinya kolom ddPlant memiliki tipe data “varchar” dan dapat NULL, namun sepertinya kesalahannya pada General Information pilihan Plant memilih nilai “Belawan”, namun outputnya pada kolom ddPlant, nilai “Surabaya” masuk dalam pilihan tersebut. Solusi terbaik adalah dicek Kembali pada options plant, asumsi saya option plant berjenis centang/klik namun pada tampilan menampilkan abjad teratas sehingga Surabaya masuk dalam list output.
 
-
 ### 7.	Membuat sebuah star schema pada database KALBE dengan memiliki 1 fact table dan 5 dimension table menggunakan Physical Data Model Theory
 
-![](\img\fact_table.png)
+![](img\fact_table.png)
 
 
